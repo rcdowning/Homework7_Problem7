@@ -13,6 +13,11 @@ int main() {
   double power[POW];
 
   // for loop for user input
+   
+  cout << "Please input the values of the current: ";
+    for (int i = 0; i < CURR; i++) {
+      cin >> current[i];
+    }
 
  
 }
